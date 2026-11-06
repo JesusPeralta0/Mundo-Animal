@@ -22,4 +22,5 @@ public abstract class Animal {
         System.out.print("Nombre: " + nombre + " | Edad: " + edad);
     }
     public abstract void hacerSonido();
-    }
+
+}
