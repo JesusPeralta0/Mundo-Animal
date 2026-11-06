@@ -6,7 +6,8 @@ public class Main {
         Animal[] animales = {
                 new Perro("Max", 3),
                 new Gato("Luna", 2),
-                new Vaca("Lola", 5)
+                new Vaca("Lola", 5),
+                new Caballo("Rayo", 7)
         };
 
 
