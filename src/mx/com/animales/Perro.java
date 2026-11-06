@@ -8,11 +8,11 @@ public class Perro extends Animal implements Movible{
 
     @Override
     public void hacerSonido() {
-        System.out.println(" El perro ladra ");
+        System.out.print(" | Sonido: Guau ");
     }
 
     @Override
     public void moverse() {
-        System.out.println(" Movimiento: Corre ");
+        System.out.println(" | Movimiento: Corre");
     }
 }

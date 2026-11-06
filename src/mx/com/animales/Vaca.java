@@ -7,12 +7,12 @@ public class Vaca extends Animal implements Movible{
 
     @Override
     public void hacerSonido() {
-        System.out.println(" La vaca hace muuuuu" );
+        System.out.print(" | Sonido: Muuu" );
     }
 
     @Override
     public void moverse() {
-        System.out.println(" Movimiento: camina");
+        System.out.println(" | Movimiento: Camina");
 
     }
 }
