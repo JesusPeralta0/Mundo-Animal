@@ -1,0 +1,84 @@
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+
+# ===== Compilados de Java =====
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+
+# ===== Paquetes y archivos empaquetados =====
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# ===== Maven =====
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ===== Gradle =====
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===== Eclipse (por si alguien más lo usa) =====
+.classpath
+.project
+.settings/
+bin/
+
+# ===== VS Code =====
+.vscode/
+
+# ===== NetBeans =====
+nbproject/private/
+nbbuild/
+nbdist/
+nbactions.xml
+
+# ===== Sistema operativo =====
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ===== Datos sensibles (muy importante) =====
+.env
+*.env
+application-local.properties
+application-local.yml
+secrets.properties
+*.pem
+*.key
+*.keystore
+*.jks
+
+# ===== Archivos temporales =====
+*.tmp
+*.temp
+*.swp
+*.bak
+*~
+
